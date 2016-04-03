@@ -19,7 +19,8 @@ namespace Phoneword
                     VerticalOptions = LayoutOptions.Center,
                     Children = {
                         new Label {
-                            XAlign = TextAlignment.Center,
+                            Scale = 2,
+                            HorizontalTextAlignment = TextAlignment.Center,
                             Text = "Welcome to Xamarin Forms!"
                         }
                     }
